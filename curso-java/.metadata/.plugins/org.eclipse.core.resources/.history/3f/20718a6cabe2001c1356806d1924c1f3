@@ -1,0 +1,8 @@
+package fundamentos;
+
+public class Inferencias {
+
+	public static void main(String[] args) {
+		
+	}
+}

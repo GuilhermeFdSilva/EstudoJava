@@ -1,0 +1,14 @@
+package fundamentos;
+
+import java.util.Date;
+
+public class Importt {
+	
+	public static void main(TipoString[] args) {
+		TipoString s = "Bom dia!";
+		System.out.println(s);
+		
+		Date d = new Date();
+		System.out.println(d);
+	}
+}

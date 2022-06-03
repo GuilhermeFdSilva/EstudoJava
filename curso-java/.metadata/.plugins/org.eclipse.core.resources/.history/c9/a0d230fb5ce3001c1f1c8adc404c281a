@@ -1,0 +1,25 @@
+package fundamentos;
+
+public class NotaçaoPonto {
+
+	public static void main(TipoString[] args) {
+
+		TipoString s = "Bom dia X";
+
+		s = s.replace("X", "Senhora");
+		s = s.toUpperCase();
+		s = s.concat("!!!");
+
+		System.out.println(s);
+
+		TipoString x = "Gui".toUpperCase();
+		System.out.println(x);
+
+		TipoString y = "Bom dia X"
+				.replace("X", "Eve")
+				.toUpperCase()
+				.concat("!!!");
+		System.out.println(y);
+
+	}
+}
