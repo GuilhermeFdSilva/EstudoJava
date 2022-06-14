@@ -4,13 +4,13 @@ public class TiposPrimitivos {
 
 	public static void main(String[] args) {
 		
-		//tipos nÃºmericos inteiros
+		//tipos númericos inteiros
 		byte anosDeEmpresa = 23;
 		short numeroDeVoos = 543;
 		int ID = 53453;
 		long pontosAcumulados = 3_534_446_445L;
 		
-		//Tipos nÃºmericos reais
+		//Tipos númericos reais
 		float salario = 11_435.32F;
 		double vendasAcumuladas = 3_154_151_454.54;
 		

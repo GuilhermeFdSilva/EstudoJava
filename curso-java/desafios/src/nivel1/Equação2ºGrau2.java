@@ -2,17 +2,15 @@ package nivel1;
 
 import java.util.Scanner;
 
-public class EquaÃ§Ã£o2ÂºGrau2 {
+public class Equação2ºGrau2 {
 	
 	public static void main(String[] args) {
-		//-b +- Â² bÂ² -4ac
-		//       2a
 		Scanner ent = new Scanner(System.in);
 		
 		final int C1 = 4;
 		final int C2 = 2;
 		
-		System.out.println("EquaÃ§Ã£o: axÂ² + bx + c = 0");
+		System.out.println("Equação: ax² + bx + c = 0");
 		
 		System.out.println("Qual valor de 'A'?");
 		int a = ent.nextInt();
@@ -25,26 +23,27 @@ public class EquaÃ§Ã£o2ÂºGrau2 {
 		
 		Integer d = (int) Math.pow(b, 2) - C1 * a * c;
 		
-		System.out.printf("Sua equaÃ§Ã£o Ã©: %dxÂ² + %dx + %d = 0\n", a, b, c);
-		System.out.println("O delta Ã©: " + d);
+		System.out.printf("Sua equação é: %dx² + %dx + %d = 0\n", a, b, c);
+		System.out.println("O delta é: " + d);
 		
 		int x1 = Double.toString(Math.sqrt(d)).contains(".") ? (-b + (int) Math.sqrt(d)) / C2 * a : 0;
 		int x2 = Double.toString(Math.sqrt(d)).contains(".") ? (-b - (int) Math.sqrt(d)) / C2 * a : 0;
 		
 		if(d > 0){
 			
-			System.out.println("O valor de X1 Ã© " + x1 + "e o valor de X2 Ã© " + x2);
+			System.out.println("O valor de X1 é " + x1 + "e o valor de X2 é " + x2);
 			
 		}else if(d == 0){
 			
-			System.out.println("O valor de X Ã© " + x1);
+			System.out.println("O valor de X é " + x1);
 			
 		}
 		else{
 			ent.close();
-			throw new IllegalArgumentException("NÃ£o hÃ¡ valores reais");
+			throw new IllegalArgumentException("Não há valores reais");
 		}
-//		System.out.println(d > 0 ? "O valor de X1 Ã© " + x1 + "e o valor de X2 Ã© " + x2 : d == 0 ? "O valor de X Ã© " + x1 : "Nao ha valores reais");
+
+//		System.out.println(d > 0 ? "O valor de X1 é " + x1 + "e o valor de X2 é " + x2 : d == 0 ? "O valor de X é " + x1 : "Não há valores reais");
 		
 		ent.close();
 			

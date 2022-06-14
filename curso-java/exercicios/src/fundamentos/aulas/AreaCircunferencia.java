@@ -8,6 +8,6 @@ public class AreaCircunferencia {
 		
 		double area = PI * raio * raio;
 		
-		System.out.println("A area de " + raio + " Ã© " + area + "mÂ²");
+		System.out.println("A area de " + raio + " é " + area + "m²");
 	}
 }

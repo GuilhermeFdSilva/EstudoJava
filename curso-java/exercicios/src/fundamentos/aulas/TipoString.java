@@ -2,7 +2,7 @@ package fundamentos.aulas;
 
 public class TipoString {
 	public static void main(String[] args) {
-		System.out.println("Ol√° Pessoal".charAt(9));
+		System.out.println("Ol· Pessoal");
 		
 		String s = "Boa Tarde";
 		System.out.println(s.concat("!!!"));
@@ -12,9 +12,9 @@ public class TipoString {
 		System.out.println(s.toUpperCase().endsWith("TARDE"));
 		System.out.println(s.length());
 		System.out.println(s.equals("BOA TARDE"));
-		System.out.println(s.equalsIgnoreCase("BOA TAEDE"));
+		System.out.println(s.equalsIgnoreCase("BOA TARDE"));
 		
-	var nome = "Andr√©";
+	var nome = "AndrÈ";
 	var sobrenome = "Henrrique";
 	var idade = 33;
 	var salario = 2948.87;

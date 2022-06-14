@@ -7,10 +7,10 @@ public class ConversaoStringNumero {
 	public static void main(String[] args) {
 		
 		String valor1 = JOptionPane.showInputDialog
-				("Digite o primeiro nÃºmero:");
+				("Digite o primeiro número:");
 
 		String valor2 = JOptionPane.showInputDialog
-				("Digite o srgundo nÃºmero:");
+				("Digite o srgundo número:");
 		
 		System.out.println(valor1 + valor2);
 		
@@ -19,8 +19,8 @@ public class ConversaoStringNumero {
 		
 		double soma = numero1 + numero2;
 		
-		System.out.println("A soma Ã© " + soma);
-		System.out.println("A mÃ©dia Ã© " + soma /2);
+		System.out.println("A soma é " + soma);
+		System.out.println("A média é " + soma /2);
 		
 	}
 
