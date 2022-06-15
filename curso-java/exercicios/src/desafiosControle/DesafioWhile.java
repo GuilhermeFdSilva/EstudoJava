@@ -28,5 +28,6 @@ public class DesafioWhile {
 		double media = total / alunos;
 		System.out.println("A média é: " + media);
 
+		ent.close();
 	}
 }
