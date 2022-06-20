@@ -15,7 +15,7 @@ public class JogoDaAdivinhação2 {
 		System.out.println("O jogo começou!\nVocê tem 10 tentativas!!");
 		System.out.print("Adivinhe o número de 0-100...\n");
 		while (restart == 0) {
-			vidas =0;
+			vidas = 0;
 			senha = ran.nextInt(101);
 			do {
 				if (vidas < 10) {
