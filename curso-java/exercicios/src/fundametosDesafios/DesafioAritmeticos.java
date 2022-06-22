@@ -1,4 +1,4 @@
-package desafiosFundametos;
+package fundametosDesafios;
 
 public class DesafioAritmeticos {
 
