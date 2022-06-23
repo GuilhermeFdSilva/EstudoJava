@@ -12,15 +12,15 @@ public class Exercicio {
 		notasAlunoA[3] = 10;
 		System.out.println(Arrays.toString(notasAlunoA));
 		double totalAlunoA = 0;
-		for(int i = 0; i < notasAlunoA.length; i++) {
-			totalAlunoA += notasAlunoA[i];
+		for(double nota: notasAlunoA) {
+			totalAlunoA += nota;
 		}
 		System.out.println(totalAlunoA / notasAlunoA.length);
 		final double notaArmazenada = 5.9;
 		double[] notasAlunoB = { 7.6, 4.4, notaArmazenada, 9.2 };
 		double totalAlunoB = 0;
-		for(int i = 0; i < notasAlunoB.length; i++) {
-			totalAlunoB += notasAlunoB[i];
+		for(double nota: notasAlunoB) {
+			totalAlunoB += nota;
 		}
 		System.out.println(totalAlunoB / notasAlunoB.length);
 	}
