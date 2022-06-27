@@ -11,11 +11,9 @@ public class Usuario {
 	public String toString() {
 		return "Meu nome é " + nome + ".";
 	}
-	@Override
 	public int hashCode() {
-		return Objects.hash(nome);
+		return this.nome.length();
 	}
-
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -27,5 +25,4 @@ public class Usuario {
 		Usuario other = (Usuario) obj;
 		return Objects.equals(nome, other.nome);
 	}
-	
 }
