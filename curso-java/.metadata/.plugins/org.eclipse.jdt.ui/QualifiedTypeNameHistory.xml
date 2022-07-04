@@ -6,7 +6,6 @@
     <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="classe.AreaCirc"/>
     <fullyQualifiedTypeName name="classe.PrimeiroTrauma"/>
@@ -31,4 +30,7 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="oo.composicao.desafio.Cliente"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="oo.heranca.desafio.Ferrari"/>
+    <fullyQualifiedTypeName name="oo.heranca.desafio.Fusca"/>
 </qualifiedTypeNameHistroy>
