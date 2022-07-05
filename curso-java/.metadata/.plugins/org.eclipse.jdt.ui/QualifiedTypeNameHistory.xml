@@ -33,4 +33,6 @@
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="oo.heranca.desafio.Ferrari"/>
     <fullyQualifiedTypeName name="oo.heranca.desafio.Fusca"/>
+    <fullyQualifiedTypeName name="oo.polimorfismo.Feijao"/>
+    <fullyQualifiedTypeName name="oo.abstrato.Cachorro"/>
 </qualifiedTypeNameHistroy>
