@@ -6,7 +6,10 @@ import java.time.Period;
 public class HeartRate {
 	private String name, lastname;
 	private int day, month, year;
-	String dataFormatada = String.format("%d/%d/%d", day, month, year);
+	private String nameFormated = String.format("%s %s", name, lastname);
+	public String getNameFormated() {
+		return nameFormated;
+	}
 	HeartRate(String name, String lastname, int day, int month, int year){
 		this.name = name;
 		this.lastname = lastname;
@@ -44,9 +47,6 @@ public class HeartRate {
 	public void setYear(int year) {
 		this.year = year;
 	}
-	public String getFormattedDate() {
-		return dataFormatada;
-	}
 	public int age() {
 		LocalDate birthday = LocalDate.of(year, month, day);
 		LocalDate today = LocalDate.now();
@@ -58,6 +58,6 @@ public class HeartRate {
 	public String idealFrequency() {
 		int maximumIdeal = Math.round(maximumFrequency() * 0.85F);
 		int minimumIdeal = Math.round(maximumFrequency() * 0.5F);
-		return "Your heart rate is betwen, " + minimumIdeal + " and " + maximumIdeal + ".";
+		return "Your ideal frequncy is betwen, " + minimumIdeal + " and " + maximumIdeal + ".";
 	}
 }

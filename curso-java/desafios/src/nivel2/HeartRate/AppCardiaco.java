@@ -1,9 +1,7 @@
 package nivel2.HeartRate;
 
-import java.util.ArrayList;
 import java.util.Calendar;
 
-import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
 public class AppCardiaco {
@@ -26,7 +24,7 @@ public class AppCardiaco {
 			j++;
 		}
 		do {
-			kay = JOptionPane.showOptionDialog(new JFrame(), "Welcome to Heart Rate!", "HeartRate",
+			kay = JOptionPane.showOptionDialog(null, "Welcome to Heart Rate!", "HeartRate",
 					JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE, null, start, start[1]);
 			if (kay != 0 && kay != -1) {
 				do {
@@ -49,6 +47,9 @@ public class AppCardiaco {
 							JOptionPane.PLAIN_MESSAGE, null, MONTH, MONTH[0]);
 					year = (int) JOptionPane.showInputDialog(null, "Insert the year of your birth", "HeartRate",
 							JOptionPane.PLAIN_MESSAGE, null, YEAR, YEAR[99]);
+					HeartRate user = new HeartRate(name, lastname, day, month, year);
+					kay = JOptionPane.showOptionDialog(null, "You at " + user.age() + " years old, have a maximum frequency of " + user.maximumFrequency() + ".\n" + user.idealFrequency() , user.getNameFormated(), JOptionPane.YES_NO_OPTION,
+							JOptionPane.PLAIN_MESSAGE, null, start, start[0]);
 				} while (kay == 1);
 			}
 		} while (kay == 1);
