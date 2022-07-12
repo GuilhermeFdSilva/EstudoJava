@@ -45,4 +45,5 @@
     <fullyQualifiedTypeName name="java.util.Calendar"/>
     <fullyQualifiedTypeName name="nivel2.HeartRate.HeartRate"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="java.util.function.BinaryOperator"/>
 </qualifiedTypeNameHistroy>
