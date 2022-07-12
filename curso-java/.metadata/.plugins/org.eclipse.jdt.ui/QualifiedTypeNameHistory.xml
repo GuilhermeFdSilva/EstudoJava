@@ -10,7 +10,6 @@
     <fullyQualifiedTypeName name="classe.PrimeiroTrauma"/>
     <fullyQualifiedTypeName name="classeDesafios.pesoPessoa"/>
     <fullyQualifiedTypeName name="classeDesafios.pesoComida"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="controle.For1"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
@@ -35,7 +34,6 @@
     <fullyQualifiedTypeName name="lambdas.Multiplicar"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="java.time.Period"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="javax.swing.JButton"/>
     <fullyQualifiedTypeName name="javax.swing.JLabel"/>
     <fullyQualifiedTypeName name="nivel2.HeartRate.AppCardiaco"/>
@@ -45,5 +43,17 @@
     <fullyQualifiedTypeName name="java.util.Calendar"/>
     <fullyQualifiedTypeName name="nivel2.HeartRate.HeartRate"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="java.util.function.Consumer"/>
+    <fullyQualifiedTypeName name="java.util.function.Predicate"/>
+    <fullyQualifiedTypeName name="java.util.function.Supplier"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.function.BinaryOperator"/>
+    <fullyQualifiedTypeName name="java.util.function.BiFunction"/>
+    <fullyQualifiedTypeName name="lambdas.Produto"/>
+    <fullyQualifiedTypeName name="java.util.function.UnaryOperator"/>
+    <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.util.function.Function"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
 </qualifiedTypeNameHistroy>
