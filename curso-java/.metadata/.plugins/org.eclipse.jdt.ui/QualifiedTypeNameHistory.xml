@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="classe.AreaCirc"/>
-    <fullyQualifiedTypeName name="classe.PrimeiroTrauma"/>
-    <fullyQualifiedTypeName name="classeDesafios.pesoPessoa"/>
-    <fullyQualifiedTypeName name="classeDesafios.pesoComida"/>
-    <fullyQualifiedTypeName name="controle.For1"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="java.lang.Object"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.util.Set"/>
-    <fullyQualifiedTypeName name="colecoes.Usuario"/>
-    <fullyQualifiedTypeName name="java.util.Queue"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.util.Deque"/>
     <fullyQualifiedTypeName name="java.util.ArrayDeque"/>
@@ -60,4 +48,16 @@
     <fullyQualifiedTypeName name="java.util.function.BinaryOperator"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="javax.management.RuntimeErrorException"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
+    <fullyQualifiedTypeName name="excecao.Aluno"/>
+    <fullyQualifiedTypeName name="excecao.personalizadaA.StringVaziaException"/>
+    <fullyQualifiedTypeName name="excecao.personalizadaA.NumeroForaDoIntervaloException"/>
+    <fullyQualifiedTypeName name="excecao.personalizadaB.StringVaziaException"/>
+    <fullyQualifiedTypeName name="excecao.personalizadaB.NumeroForaDoIntervaloException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
 </qualifiedTypeNameHistroy>
