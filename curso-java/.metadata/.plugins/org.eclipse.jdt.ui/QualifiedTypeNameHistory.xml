@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.LinkedList"/>
-    <fullyQualifiedTypeName name="java.util.Deque"/>
-    <fullyQualifiedTypeName name="java.util.ArrayDeque"/>
-    <fullyQualifiedTypeName name="java.util.HashMap"/>
-    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
-    <fullyQualifiedTypeName name="java.util.HashSet"/>
-    <fullyQualifiedTypeName name="oo.composicao.Carro"/>
-    <fullyQualifiedTypeName name="java.util.Map"/>
-    <fullyQualifiedTypeName name="oo.composicao.desafio.Cliente"/>
-    <fullyQualifiedTypeName name="oo.heranca.desafio.Ferrari"/>
-    <fullyQualifiedTypeName name="oo.heranca.desafio.Fusca"/>
     <fullyQualifiedTypeName name="oo.polimorfismo.Feijao"/>
     <fullyQualifiedTypeName name="oo.abstrato.Cachorro"/>
     <fullyQualifiedTypeName name="lambdas.Multiplicar"/>
@@ -40,8 +29,6 @@
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="streams.desafio.Produto"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.function.Predicate"/>
     <fullyQualifiedTypeName name="java.util.function.Function"/>
     <fullyQualifiedTypeName name="java.util.function.BiFunction"/>
@@ -60,4 +47,17 @@
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
     <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="generics.CaixaObjeto"/>
+    <fullyQualifiedTypeName name="generics.Caixa"/>
+    <fullyQualifiedTypeName name="generics.CaixaInt"/>
+    <fullyQualifiedTypeName name="generics.CaixaNumero"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="generics.ListaUtil"/>
+    <fullyQualifiedTypeName name="java.util.SortedSet"/>
+    <fullyQualifiedTypeName name="java.lang.Number"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="generics.Pares"/>
+    <fullyQualifiedTypeName name="java.util.TreeSet"/>
 </qualifiedTypeNameHistroy>
