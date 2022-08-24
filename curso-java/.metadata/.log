@@ -12024,3 +12024,760 @@ java.net.SocketException: Connection reset
 	at org.eclipse.eclemma.internal.core.MemoryExecutionDataSource.readFrom(MemoryExecutionDataSource.java:69)
 	at org.eclipse.eclemma.internal.core.launching.AgentServer.run(AgentServer.java:115)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2022-08-02 16:24:20.277 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=18.0.1.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2022-08-02 16:24:30.506
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-02 16:24:30.506
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6c120b00,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@d8a2b1b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-02 16:24:30.506
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2709e075,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3328db4f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-08-02 16:24:35.117
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\franc'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2022-08-02 16:25:25.477 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=18.0.1.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2022-08-02 16:25:37.204
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-02 16:25:37.204
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@648f48d3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@30ce78e3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-02 16:25:37.204
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@41041c31,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@34a482d0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-08-02 16:25:44.651
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\franc'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.eclemma.core 4 5013 2022-08-02 16:34:51.441
+!MESSAGE Error while dumping coverage data (code 5013).
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:320)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:347)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:800)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:961)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:79)
+	at org.jacoco.core.data.ExecutionDataReader.read(ExecutionDataReader.java:84)
+	at org.eclipse.eclemma.internal.core.MemoryExecutionDataSource.readFrom(MemoryExecutionDataSource.java:69)
+	at org.eclipse.eclemma.internal.core.launching.AgentServer.run(AgentServer.java:115)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-02 16:39:20.780
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/webtools/repository/2021-09/, see CVE-2021-41033. Consider using https instead.
+!SESSION 2022-08-12 12:16:22.766 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=18.0.1.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2022-08-12 12:16:54.100
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-12 12:16:54.100
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7d50b4c4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7860a014,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-12 12:16:54.100
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@86e8469,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@76b6bad3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-08-12 12:17:06.105
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\franc'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-12 12:25:15.362
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/webtools/repository/2021-09/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-12 12:25:17.404
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/webtools/repository/2021-09/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-08-12 12:25:34.716
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2022-08-12 12:25:34.716
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:34.716
+!MESSAGE Software being installed: Git integration for Eclipse 6.2.0.202206071550-r (org.eclipse.egit.feature.group 6.2.0.202206071550-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:34.716
+!MESSAGE Software currently installed: Git integration for Eclipse - Task focused interface 6.1.0.202203080745-r (org.eclipse.egit.mylyn.feature.group 6.1.0.202203080745-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:25:34.716
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:34.716
+!MESSAGE Git integration for Eclipse - Core 6.1.0.202203080745-r (org.eclipse.egit.core 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:34.716
+!MESSAGE Git integration for Eclipse - Core 6.2.0.202206071550-r (org.eclipse.egit.core 6.2.0.202206071550-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:25:34.716
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:34.716
+!MESSAGE From: Git integration for Eclipse 6.2.0.202206071550-r (org.eclipse.egit.feature.group 6.2.0.202206071550-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:34.716
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.egit.core [6.2.0.202206071550-r,6.2.0.202206071550-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:25:34.716
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:34.716
+!MESSAGE From: Git integration for Eclipse - Task focused interface 6.1.0.202203080745-r (org.eclipse.egit.mylyn.feature.group 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:34.716
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.egit.mylyn.ui [6.1.0.202203080745-r,6.1.0.202203080745-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:25:34.716
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:34.716
+!MESSAGE From: EGit Mylyn UI 6.1.0.202203080745-r (org.eclipse.egit.mylyn.ui 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:34.716
+!MESSAGE To: java.package; org.eclipse.egit.core [6.1.0,6.2.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-08-12 12:25:34.807
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2022-08-12 12:25:34.808
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:34.808
+!MESSAGE Software being installed: Git integration for Eclipse 6.2.0.202206071550-r (org.eclipse.egit.feature.group 6.2.0.202206071550-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:34.808
+!MESSAGE Software currently installed: Git integration for Eclipse - Task focused interface 6.1.0.202203080745-r (org.eclipse.egit.mylyn.feature.group 6.1.0.202203080745-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:25:34.808
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:34.808
+!MESSAGE Git integration for Eclipse - Core 6.1.0.202203080745-r (org.eclipse.egit.core 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:34.808
+!MESSAGE Git integration for Eclipse - Core 6.2.0.202206071550-r (org.eclipse.egit.core 6.2.0.202206071550-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:25:34.808
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:34.808
+!MESSAGE From: Git integration for Eclipse 6.2.0.202206071550-r (org.eclipse.egit.feature.group 6.2.0.202206071550-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:34.808
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.egit.core [6.2.0.202206071550-r,6.2.0.202206071550-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:25:34.808
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:34.808
+!MESSAGE From: Git integration for Eclipse - Task focused interface 6.1.0.202203080745-r (org.eclipse.egit.mylyn.feature.group 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:34.808
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.egit.mylyn.ui [6.1.0.202203080745-r,6.1.0.202203080745-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:25:34.808
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:34.808
+!MESSAGE From: EGit Mylyn UI 6.1.0.202203080745-r (org.eclipse.egit.mylyn.ui 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:34.808
+!MESSAGE To: java.package; org.eclipse.egit.core [6.1.0,6.2.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-08-12 12:25:36.509
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2022-08-12 12:25:36.509
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:36.509
+!MESSAGE Software being installed: Git integration for Eclipse 6.2.0.202206071550-r (org.eclipse.egit.feature.group 6.2.0.202206071550-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:36.509
+!MESSAGE Software currently installed: Git integration for Eclipse - Task focused interface 6.1.0.202203080745-r (org.eclipse.egit.mylyn.feature.group 6.1.0.202203080745-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:25:36.509
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:36.509
+!MESSAGE Git integration for Eclipse - Core 6.1.0.202203080745-r (org.eclipse.egit.core 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:36.509
+!MESSAGE Git integration for Eclipse - Core 6.2.0.202206071550-r (org.eclipse.egit.core 6.2.0.202206071550-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:25:36.509
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:36.509
+!MESSAGE From: Git integration for Eclipse 6.2.0.202206071550-r (org.eclipse.egit.feature.group 6.2.0.202206071550-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:36.510
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.egit.core [6.2.0.202206071550-r,6.2.0.202206071550-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:25:36.510
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:36.510
+!MESSAGE From: Git integration for Eclipse - Task focused interface 6.1.0.202203080745-r (org.eclipse.egit.mylyn.feature.group 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:36.510
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.egit.mylyn.ui [6.1.0.202203080745-r,6.1.0.202203080745-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:25:36.510
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:36.510
+!MESSAGE From: EGit Mylyn UI 6.1.0.202203080745-r (org.eclipse.egit.mylyn.ui 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:36.510
+!MESSAGE To: java.package; org.eclipse.egit.core [6.1.0,6.2.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-08-12 12:25:36.512
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2022-08-12 12:25:36.512
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:36.512
+!MESSAGE Software being installed: Git integration for Eclipse 6.2.0.202206071550-r (org.eclipse.egit.feature.group 6.2.0.202206071550-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:36.512
+!MESSAGE Software currently installed: Git integration for Eclipse - Task focused interface 6.1.0.202203080745-r (org.eclipse.egit.mylyn.feature.group 6.1.0.202203080745-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:25:36.512
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:36.512
+!MESSAGE Git integration for Eclipse - Core 6.1.0.202203080745-r (org.eclipse.egit.core 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:36.512
+!MESSAGE Git integration for Eclipse - Core 6.2.0.202206071550-r (org.eclipse.egit.core 6.2.0.202206071550-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:25:36.512
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:36.512
+!MESSAGE From: Git integration for Eclipse 6.2.0.202206071550-r (org.eclipse.egit.feature.group 6.2.0.202206071550-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:36.512
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.egit.core [6.2.0.202206071550-r,6.2.0.202206071550-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:25:36.512
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:36.512
+!MESSAGE From: Git integration for Eclipse - Task focused interface 6.1.0.202203080745-r (org.eclipse.egit.mylyn.feature.group 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:36.512
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.egit.mylyn.ui [6.1.0.202203080745-r,6.1.0.202203080745-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:25:36.513
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:36.513
+!MESSAGE From: EGit Mylyn UI 6.1.0.202203080745-r (org.eclipse.egit.mylyn.ui 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:25:36.513
+!MESSAGE To: java.package; org.eclipse.egit.core [6.1.0,6.2.0)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-12 12:25:50.384
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/webtools/repository/2021-09/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10052 2022-08-12 12:26:10.679
+!MESSAGE Cannot continue the operation.  There is another install operation in progress.
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-08-12 12:26:28.732
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-08-12 12:26:28.735
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.equinox.p2.operations.ProfileModificationJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-08-12 12:26:28.738
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-08-12 12:26:28.740
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-08-12 12:26:28.741
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-08-12 12:26:28.742
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-08-12 12:26:28.744
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-08-12 12:26:28.745
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-08-12 12:26:28.746
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-08-12 12:26:28.748
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-08-12 12:26:28.748
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob
+!SESSION 2022-08-12 12:26:29.267 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=18.0.1.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2022-08-12 12:26:37.566
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-12 12:26:37.566
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@e75bae7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3531509c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-12 12:26:37.566
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@23169374,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4f2b1a2f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-08-12 12:26:42.104
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\franc'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-12 12:26:59.802
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/webtools/repository/2021-09/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-08-12 12:27:14.993
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2022-08-12 12:27:14.993
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:14.993
+!MESSAGE Software being installed: Git integration for Eclipse 6.2.0.202206071550-r (org.eclipse.egit.feature.group 6.2.0.202206071550-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:14.993
+!MESSAGE Software currently installed: Git integration for Eclipse - Task focused interface 6.1.0.202203080745-r (org.eclipse.egit.mylyn.feature.group 6.1.0.202203080745-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:27:14.993
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:14.993
+!MESSAGE Git integration for Eclipse - Core 6.1.0.202203080745-r (org.eclipse.egit.core 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:14.993
+!MESSAGE Git integration for Eclipse - Core 6.2.0.202206071550-r (org.eclipse.egit.core 6.2.0.202206071550-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:27:14.993
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:14.993
+!MESSAGE From: Git integration for Eclipse 6.2.0.202206071550-r (org.eclipse.egit.feature.group 6.2.0.202206071550-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:14.993
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.egit.core [6.2.0.202206071550-r,6.2.0.202206071550-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:27:14.993
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:14.993
+!MESSAGE From: Git integration for Eclipse - Task focused interface 6.1.0.202203080745-r (org.eclipse.egit.mylyn.feature.group 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:14.993
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.egit.mylyn.ui [6.1.0.202203080745-r,6.1.0.202203080745-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:27:14.993
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:14.993
+!MESSAGE From: EGit Mylyn UI 6.1.0.202203080745-r (org.eclipse.egit.mylyn.ui 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:14.993
+!MESSAGE To: java.package; org.eclipse.egit.core [6.1.0,6.2.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-08-12 12:27:15.102
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2022-08-12 12:27:15.102
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:15.102
+!MESSAGE Software being installed: Git integration for Eclipse 6.2.0.202206071550-r (org.eclipse.egit.feature.group 6.2.0.202206071550-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:15.102
+!MESSAGE Software currently installed: Git integration for Eclipse - Task focused interface 6.1.0.202203080745-r (org.eclipse.egit.mylyn.feature.group 6.1.0.202203080745-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:27:15.102
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:15.102
+!MESSAGE Git integration for Eclipse - Core 6.1.0.202203080745-r (org.eclipse.egit.core 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:15.102
+!MESSAGE Git integration for Eclipse - Core 6.2.0.202206071550-r (org.eclipse.egit.core 6.2.0.202206071550-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:27:15.102
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:15.102
+!MESSAGE From: Git integration for Eclipse 6.2.0.202206071550-r (org.eclipse.egit.feature.group 6.2.0.202206071550-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:15.102
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.egit.core [6.2.0.202206071550-r,6.2.0.202206071550-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:27:15.102
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:15.102
+!MESSAGE From: Git integration for Eclipse - Task focused interface 6.1.0.202203080745-r (org.eclipse.egit.mylyn.feature.group 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:15.102
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.egit.mylyn.ui [6.1.0.202203080745-r,6.1.0.202203080745-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:27:15.102
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:15.102
+!MESSAGE From: EGit Mylyn UI 6.1.0.202203080745-r (org.eclipse.egit.mylyn.ui 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:15.102
+!MESSAGE To: java.package; org.eclipse.egit.core [6.1.0,6.2.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-08-12 12:27:16.486
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2022-08-12 12:27:16.487
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:16.487
+!MESSAGE Software being installed: Git integration for Eclipse 6.2.0.202206071550-r (org.eclipse.egit.feature.group 6.2.0.202206071550-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:16.487
+!MESSAGE Software currently installed: Git integration for Eclipse - Task focused interface 6.1.0.202203080745-r (org.eclipse.egit.mylyn.feature.group 6.1.0.202203080745-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:27:16.487
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:16.487
+!MESSAGE Git integration for Eclipse - Core 6.1.0.202203080745-r (org.eclipse.egit.core 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:16.487
+!MESSAGE Git integration for Eclipse - Core 6.2.0.202206071550-r (org.eclipse.egit.core 6.2.0.202206071550-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:27:16.487
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:16.487
+!MESSAGE From: Git integration for Eclipse 6.2.0.202206071550-r (org.eclipse.egit.feature.group 6.2.0.202206071550-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:16.487
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.egit.core [6.2.0.202206071550-r,6.2.0.202206071550-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:27:16.487
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:16.487
+!MESSAGE From: Git integration for Eclipse - Task focused interface 6.1.0.202203080745-r (org.eclipse.egit.mylyn.feature.group 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:16.487
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.egit.mylyn.ui [6.1.0.202203080745-r,6.1.0.202203080745-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:27:16.487
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:16.487
+!MESSAGE From: EGit Mylyn UI 6.1.0.202203080745-r (org.eclipse.egit.mylyn.ui 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:16.487
+!MESSAGE To: java.package; org.eclipse.egit.core [6.1.0,6.2.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-08-12 12:27:16.490
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2022-08-12 12:27:16.490
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:16.490
+!MESSAGE Software being installed: Git integration for Eclipse 6.2.0.202206071550-r (org.eclipse.egit.feature.group 6.2.0.202206071550-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:16.490
+!MESSAGE Software currently installed: Git integration for Eclipse - Task focused interface 6.1.0.202203080745-r (org.eclipse.egit.mylyn.feature.group 6.1.0.202203080745-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:27:16.490
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:16.490
+!MESSAGE Git integration for Eclipse - Core 6.1.0.202203080745-r (org.eclipse.egit.core 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:16.490
+!MESSAGE Git integration for Eclipse - Core 6.2.0.202206071550-r (org.eclipse.egit.core 6.2.0.202206071550-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:27:16.490
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:16.490
+!MESSAGE From: Git integration for Eclipse 6.2.0.202206071550-r (org.eclipse.egit.feature.group 6.2.0.202206071550-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:16.490
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.egit.core [6.2.0.202206071550-r,6.2.0.202206071550-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:27:16.490
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:16.490
+!MESSAGE From: Git integration for Eclipse - Task focused interface 6.1.0.202203080745-r (org.eclipse.egit.mylyn.feature.group 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:16.490
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.egit.mylyn.ui [6.1.0.202203080745-r,6.1.0.202203080745-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-08-12 12:27:16.490
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:16.490
+!MESSAGE From: EGit Mylyn UI 6.1.0.202203080745-r (org.eclipse.egit.mylyn.ui 6.1.0.202203080745-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-08-12 12:27:16.490
+!MESSAGE To: java.package; org.eclipse.egit.core [6.1.0,6.2.0)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-12 12:27:26.432
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/webtools/repository/2021-09/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10052 2022-08-12 12:28:06.196
+!MESSAGE Cannot continue the operation.  There is another install operation in progress.
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2022-08-12 12:30:17.182
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2022-08-12 12:30:17.182
+!MESSAGE session context was:(profile=C__Users_franc_eclipse_jee-2022-03_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2022-08-12 12:30:17.182
+!MESSAGE Attempt to access stopped agent: org.eclipse.equinox.internal.p2.core.ProvisioningAgent@2fd22536
+!STACK 0
+java.lang.IllegalStateException: Attempt to access stopped agent: org.eclipse.equinox.internal.p2.core.ProvisioningAgent@2fd22536
+	at org.eclipse.equinox.internal.p2.core.ProvisioningAgent.checkRunning(ProvisioningAgent.java:86)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningAgent.getService(ProvisioningAgent.java:50)
+	at org.eclipse.equinox.p2.core.IProvisioningAgent.getService(IProvisioningAgent.java:86)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.publishDownloadEvent(DownloadManager.java:137)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.fetch(DownloadManager.java:128)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.start(DownloadManager.java:98)
+	at org.eclipse.equinox.internal.p2.engine.phases.Collect.completePhase(Collect.java:111)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:254)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:105)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:50)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:80)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:48)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:181)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2022-08-12 12:30:17.191
+!MESSAGE An internal error occurred during: "Install download3".
+!STACK 0
+java.lang.IllegalStateException: Attempt to access stopped agent: org.eclipse.equinox.internal.p2.core.ProvisioningAgent@2fd22536
+	at org.eclipse.equinox.internal.p2.core.ProvisioningAgent.checkRunning(ProvisioningAgent.java:86)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningAgent.getService(ProvisioningAgent.java:50)
+	at org.eclipse.equinox.p2.core.IProvisioningAgent.getService(IProvisioningAgent.java:86)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:232)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:155)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:787)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2022-08-12 12:30:26.446 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=18.0.1.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2022-08-12 12:31:28.143
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-12 12:31:28.143
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2709e075,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3328db4f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-12 12:31:28.143
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4f9e9c21,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1390a43a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-08-12 12:31:37.081
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\franc'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-12 13:03:49.671
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/webtools/repository/2021-09/, see CVE-2021-41033. Consider using https instead.
+!SESSION 2022-08-12 16:28:31.448 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=18.0.1.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-08-12 16:28:54.393
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2022-08-12 16:29:00.126
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-12 16:29:00.126
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@20843604,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@28dd038f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-12 16:29:00.126
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@31d8352e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1d82d35c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-08-12 16:29:05.946
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\franc'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-12 16:42:56.265
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/webtools/repository/2021-09/, see CVE-2021-41033. Consider using https instead.
+!SESSION 2022-08-19 11:11:33.346 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=18.0.1.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2022-08-19 11:11:54.787
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-19 11:11:54.787
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@53202b06,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@44ba9f25,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-19 11:11:54.787
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@53570fff,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6e5df971,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-08-19 11:12:08.500
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\franc'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-08-19 11:38:44.828
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/webtools/repository/2021-09/, see CVE-2021-41033. Consider using https instead.
