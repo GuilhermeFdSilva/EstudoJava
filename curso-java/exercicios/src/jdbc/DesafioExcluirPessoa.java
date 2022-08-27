@@ -18,7 +18,7 @@ public class DesafioExcluirPessoa {
 			System.out.print("Qual nome deseja excluir: ");
 			String pesquisa = ent.next();
 			PreparedStatement stmtP = conexao.prepareStatement(pesquisaSQL);
-			stmtP.setString(1, pesquisa + "%");
+			stmtP.setString(1, "%" + pesquisa + "%");
 			ResultSet resultado = stmtP.executeQuery();
 			if (resultado.next()) {
 				List<Pessoa> pessoas = new ArrayList<>();
