@@ -28,14 +28,14 @@ public class DesafioAtualizarRegistro {
 		}
 		System.out.print("Insira o código da pessoa que desexa alterar: ");
 			int cod = ent.nextInt();
-			String nulo = ent.nextLine();
+			ent.nextLine();
 		System.out.print("Insira o nome atualizado: ");
 			String nomeAtt = ent.nextLine();
 		PreparedStatement stmt2 = conexao.prepareStatement(sql2);
 			stmt2.setString(1, nomeAtt);
 			stmt2.setInt(2, cod);
 			stmt2.execute();
-		System.out.println("Nome atualizado com sucesso!" + nulo);
+		System.out.println("Nome atualizado com sucesso!");
 		stmt1.close();
 		stmt2.close();
 		conexao.close();
