@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
-    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
-    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
-    <fullyQualifiedTypeName name="java.lang.Object"/>
-    <fullyQualifiedTypeName name="generics.CaixaObjeto"/>
-    <fullyQualifiedTypeName name="generics.Caixa"/>
     <fullyQualifiedTypeName name="generics.CaixaInt"/>
     <fullyQualifiedTypeName name="generics.CaixaNumero"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="generics.ListaUtil"/>
     <fullyQualifiedTypeName name="java.util.SortedSet"/>
     <fullyQualifiedTypeName name="java.lang.Number"/>
@@ -20,7 +13,6 @@
     <fullyQualifiedTypeName name="nivel2.HeartRate.Body"/>
     <fullyQualifiedTypeName name="padroes.observer.ObservadorChegadaAniversariante"/>
     <fullyQualifiedTypeName name="padroes.observer.EventoChegadaAniversariante"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="padroes.observer.Namorada"/>
     <fullyQualifiedTypeName name="padroes.observer.Porteiro"/>
     <fullyQualifiedTypeName name="javax.swing.JButton"/>
@@ -60,4 +52,12 @@
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="org.hibernate.annotations.Entity"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.app.calculo.interno.OperacoesAritmeticas"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.app.calculo.Calculadora"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.app.logging.Logger"/>
 </qualifiedTypeNameHistroy>
