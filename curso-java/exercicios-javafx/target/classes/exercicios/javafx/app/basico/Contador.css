@@ -5,8 +5,8 @@
 }
 .titulo{
     -fx-font-family: Roboto Mono;
-    -fx-text-fill: #88c;
-    -fx-font-size: 36px;
+    -fx-text-fill: #87c;
+    -fx-font-size: 35px;
     -fx-font-weight: bold;
 }
 .numero{

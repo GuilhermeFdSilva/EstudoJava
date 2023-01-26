@@ -11,5 +11,7 @@ module exercicios.javafx.app {
     requires com.almasb.fxgl.all;
 
     opens exercicios.javafx.app.basico to javafx.fxml;
+    opens exercicios.javafx.app.layout to javafx.fxml;
     exports exercicios.javafx.app.basico;
+    exports exercicios.javafx.app.layout;
 }
