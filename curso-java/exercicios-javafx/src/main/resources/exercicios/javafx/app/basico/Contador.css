@@ -1,0 +1,31 @@
+.conteudo{
+    -fx-background-color: black;
+    -fx-font-family: Roboto Mono;
+    -fx-text-fill: #eee;
+}
+.titulo{
+    -fx-font-family: Roboto Mono;
+    -fx-text-fill: #87c;
+    -fx-font-size: 35px;
+    -fx-font-weight: bold;
+}
+.numero{
+    -fx-font-family: Roboto Mono;
+    -fx-text-fill: #eee;
+    -fx-font-size: 28px;
+}
+.botoes{
+    -fx-background-color: #88c;
+    -fx-text-fill: #eee;
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-min-width: 60px;
+    -fx-min-height:60px;
+    -fx-background-radius: 50%;
+}
+.verde{
+    -fx-text-fill: green;
+}
+.vermelho{
+    -fx-text-fill: red;
+}
