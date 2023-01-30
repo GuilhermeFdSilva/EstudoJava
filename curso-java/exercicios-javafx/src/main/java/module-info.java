@@ -12,6 +12,8 @@ module exercicios.javafx.app {
 
     opens exercicios.javafx.app.basico to javafx.fxml;
     opens exercicios.javafx.app.layout to javafx.fxml;
+    opens exercicios.javafx.app.fxml to javafx.fxml;
     exports exercicios.javafx.app.basico;
     exports exercicios.javafx.app.layout;
+    exports exercicios.javafx.app.fxml;
 }
