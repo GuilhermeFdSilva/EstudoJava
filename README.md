@@ -1,6 +1,21 @@
-<h2>EstudoJava</h2>
+# EstudoJava 🧡
 
-Java 2022 COMPLETO: Do Zero ao Profissional + Projetos! <strong>Udemy</strong><br> <br>
-<strong>BY:</strong> <a href="https://www.cod3r.com.br/"><img src="https://import.cdn.thinkific.com/220759%2Fcustom_site_themes%2Fid%2FhbIbe45tSJSfztUcZ1Qm_LOGOTIPO-CODER-FUNDOTRANSPARENTE-PRETA.png" width="120"></a>
-<br><br>
-<strong>Curso: </strong> <a href="https://www.udemy.com/course/fundamentos-de-programacao-com-java/"> 🍵 Udemy </a>
+Repositório contendo todos os projetos desenvolvidos durante o curso desenvolvimento em Java da Udemy. 🍵
+
+[Java: Do Zero ao Profissional](https://www.udemy.com/course/fundamentos-de-programacao-com-java/) ministrado por **Leonardo Moura Leitao** 👨🏽‍🏫
+
+## Tecnologias aplicadas
+
+<a href="https://docs.oracle.com/en/java/">
+  <img src="https://guilhermefdsilva.github.io/read-db-myPortfolio/sticks/stick-java.svg" alt="Java" height="28px">
+</a>
+<br>
+<a href="https://dev.mysql.com/doc/">
+  <img src="https://guilhermefdsilva.github.io/read-db-myPortfolio/sticks/stick-mysql.svg" alt="MySQL" height="28px">
+</a>
+<br>
+<a href="https://www.mongodb.com/docs/">
+  <img src="https://guilhermefdsilva.github.io/read-db-myPortfolio/sticks/stick-mongodb.svg" alt="MongoDB" height="28px">
+</a>
+
+### Você pode navegar e ver tudo que produzi durante o curso. 😳
